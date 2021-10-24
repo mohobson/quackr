@@ -13,4 +13,8 @@ dist/
 build/
 *.egg-info/
 
-README.md
+.gcloudignore
+.dockerignore
+.gitignore
+
+Archive/
