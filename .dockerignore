@@ -10,3 +10,4 @@ __pycache__
 .gcloudignore
 .gitignore
 Archive/
+tests/

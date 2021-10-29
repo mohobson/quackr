@@ -17,6 +17,8 @@
 # Python pycache:
 __pycache__/
 
+tests/
+
 .DS_Store
 # Ignored by the build system
 /setup.cfg
