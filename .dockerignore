@@ -4,6 +4,7 @@ README.md
 *.pyo
 *.pyd
 __pycache__
+.DS_Store
 .pytest_cache
 .dockerignore
 .gcloudignore
