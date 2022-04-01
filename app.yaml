@@ -1,2 +1,8 @@
 runtime: custom
 env: flex
+
+#added the following to prevent multiple instances and high GAE costs
+instance_class: F1
+automatic_scaling:
+  max_num_instances: 2 #(--> you can adjust this as you wish)
+  min_num_instances: 1 #(--> will scale to 1 when there is no traffic so it will incur less cost)
