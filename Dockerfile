@@ -23,7 +23,6 @@ RUN apt-get -y install git
 RUN pip install --no-cache-dir -r requirements.txt
 
 ENV FLASK_APP=run.py
-RUN flask run
 
 # initialize the database
 RUN flask init-db
